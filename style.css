@@ -1,5 +1,5 @@
 .grid_cell{
-    background-color: black;
+    background-color: white;
     width: 20px;
     height: 20px;
     margin: 1px;
@@ -7,10 +7,11 @@
 #grid_container{
     display: flex;
     flex-direction: column;
+    /* background-color: white; */
 }
 .grid_row{
     display: flex;
 }
-.grid_cell:hover{
-    background-color: white;
+body{
+    background-color: antiquewhite;
 }
